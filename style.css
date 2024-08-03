@@ -1,0 +1,77 @@
+/* global style starts */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e2ebff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 700px;
+    margin: 1rem 2rem;
+
+    h1{
+        color: #181818;
+        font-weight: 900;
+        font-size: 32px;
+        margin: 16px 0;
+    }
+    h2{
+        color: #f1f1f1;
+        background-color: #242424;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 2px 6px;
+        /* margin: 16px 0; */
+    }
+    h3{
+        color: #242424;
+        margin: 2px 0;
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 600;
+        color: #242424;
+        margin: 8px 0;
+    }
+
+    .header{
+        text-align: center;
+        margin: 0 0 2rem 0;
+        
+        p{
+            padding: 0 4rem;
+        }
+    }
+
+    .qualification, .experience{
+        margin: 1rem 0 0 1rem;
+        padding-left: 1rem;
+        border-left: 1px dotted #242424;
+    }
+
+    .list{
+        padding: 0;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        li{
+            margin: 3px 6px;
+            padding: 0 8px;
+            border: 1px solid #242424c4;
+
+            p{
+                margin: 3px;
+            }
+        }
+    }
+
+    .note{
+        margin: 2rem 0 0 0;
+    }
+}
+/* global style ends */
